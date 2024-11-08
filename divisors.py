@@ -1,6 +1,6 @@
 import sys
 x = sys.stdin.readline()
-t = int(x)
+x = int(x)
 y = list()
 for i in range(1,t):
   if (t % i == 0):
