@@ -3,7 +3,7 @@ import sys
 try:
   x = input()
 except:
-  break
+  print('Error')
 x = int(x)
 y = list()
 for i in range(1,x):
