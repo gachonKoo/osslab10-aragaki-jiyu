@@ -1,6 +1,9 @@
 import sys
 
-x = input()
+try:
+  x = input()
+except:
+  break
 x = int(x)
 y = list()
 for i in range(1,x):
