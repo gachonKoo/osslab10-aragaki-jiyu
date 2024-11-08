@@ -1,7 +1,5 @@
-try:
-  x = input()
-except:
-  print('Error')
+import sys
+x = sys.stdin.readline()
 t = int(x)
 y = list()
 for i in range(1,t):
